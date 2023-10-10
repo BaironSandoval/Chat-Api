@@ -1,0 +1,52 @@
+================================ERROR 9/10/2023, 7:45:53 p. m.============================
+req: POST /upload body: {} 
+res: status: 400, {"error":"File not accepted","message":"Only images files are allowed","storageErrors":[]} 
+
+================================ERROR 9/10/2023, 7:48:30 p. m.============================
+req: POST /upload body: {} 
+res: status: 400, {"error":"File not accepted","message":"Only images files are allowed","storageErrors":[]} 
+
+================================ERROR 9/10/2023, 9:57:03 p. m.============================
+req: POST /api/v1/users/login body: {} 
+res: status: 400, {"expose":true,"statusCode":400,"body":"{\r\n    \"email\": \"baironalfonsosandovalnino@gmail.com\",\r\n}","type":"entity.parse.failed"} 
+
+================================ERROR 9/10/2023, 9:57:16 p. m.============================
+req: POST /api/v1/users/login body: {"email":"baironalfonsosandovalnino@gmail.com"} 
+res: status: 400, {"error":"Invalid data","message":["la propiedad password no esta incluida","la propiedad password no debe estar vacia","la propiedad password debe ser string"]} 
+
+================================ERROR 9/10/2023, 9:58:34 p. m.============================
+req: GET /api/v1/users body: {} 
+res: status: undefined, {} 
+
+================================ERROR 9/10/2023, 10:01:59 p. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 9/10/2023, 10:03:41 p. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 9/10/2023, 10:04:09 p. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 9/10/2023, 10:36:57 p. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 9/10/2023, 10:38:42 p. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 9/10/2023, 10:45:13 p. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 9/10/2023, 11:02:56 p. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 9/10/2023, 11:05:51 p. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+

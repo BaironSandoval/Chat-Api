@@ -1,0 +1,48 @@
+================================ERROR 10/10/2023, 12:19:45 a. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 10/10/2023, 12:21:45 a. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 10/10/2023, 12:30:36 a. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 10/10/2023, 12:34:26 a. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {} 
+
+================================ERROR 10/10/2023, 1:05:53 a. m.============================
+req: POST /api/v1/users/login body: {"email":"baironalfonsosandovalnino@gmail.com","password":"Ganar0123."} 
+res: status: 400, {"error":"Incorrect password","message":"The password does not match with the user"} 
+
+================================ERROR 10/10/2023, 1:10:18 a. m.============================
+req: GET /api/v1/messages/conversation/5 body: {} 
+res: status: undefined, {"name":"JsonWebTokenError","message":"invalid token"} 
+
+================================ERROR 10/10/2023, 1:51:42 a. m.============================
+req: PUT /api/v1/users/6 body: {} 
+res: status: 401, {"message":"No authorization header"} 
+
+================================ERROR 10/10/2023, 1:54:08 a. m.============================
+req: GET /api/v1/users body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-06T02:21:58.000Z"} 
+
+================================ERROR 10/10/2023, 1:54:08 a. m.============================
+req: GET /api/v1/conversations/1 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-06T02:21:58.000Z"} 
+
+================================ERROR 10/10/2023, 1:54:08 a. m.============================
+req: GET /api/v1/users body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-06T02:21:58.000Z"} 
+
+================================ERROR 10/10/2023, 1:54:08 a. m.============================
+req: GET /api/v1/conversations/1 body: {} 
+res: status: undefined, {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-06T02:21:58.000Z"} 
+
+================================ERROR 10/10/2023, 10:50:51 a. m.============================
+req: GET /api/v1/users body: {} 
+res: status: 401, {"message":"No authorization header"} 
+
